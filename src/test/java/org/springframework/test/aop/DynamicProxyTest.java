@@ -26,6 +26,9 @@ public class DynamicProxyTest {
 
 	private AdvisedSupport advisedSupport;
 
+	/**
+	 * 这个是junit的注解 别误导到
+	 */
 	@Before
 	public void setup() {
 		WorldService worldService = new WorldServiceImpl();
